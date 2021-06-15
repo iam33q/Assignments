@@ -1,0 +1,143 @@
+#nav-icon {
+	background-image: url("../homelogo.png");
+	max-height: 50px;
+	text-align: left;
+	padding-top: 0mm;
+	padding-bottom: 0mm;
+	padding-left: 0mm;
+	align-items: initial;
+	justify-content: left;
+}
+#upperpage {
+	background-color: silver;
+	display:flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+
+}
+#navbar_text {
+	color: rgba(80, 80, 80, 0.9);
+	text-align: left;
+	text-justify: initial;
+}
+#navbar_style {
+	max-height: 45px;
+	text-align: left;
+	padding: 0mm, 0mm;
+	padding-top: 0mm;
+	padding-bottom: 2px;
+	border-bottom: 2px;
+	border-color: maroon;
+
+	padding-left: 1rem;
+	align-items: center;
+	justify-content: left;
+	text-decoration: none !important;
+	flex-wrap: nowrap;
+	font-size: calc(5%+1vw+1vh);
+}
+#navbar_brand {
+	color: rgba(13, 129, 3, 0.432);
+	text-align: right;
+	font-size: 40px;
+	border-right: 10px;
+	margin-right: 10px;
+	text-decoration: 0;
+}
+#HContent1{	background-color: rgba(255, 0, 85, 0.8); display: flex;	color: white ;	font-size: calc(5% + 3vw + 3vh); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; flex-wrap: nowrap; flex-grow: 1; border-radius: 2px; border-color: gray;}
+#HContent2{	background-color: forestgreen;			display: flex;	color: white ; 	font-size: calc(5% + 3vw + 3vh); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; flex-wrap: nowrap; flex-grow: 1; border-radius: 2px; border-color: gray;}
+#HContent3{	background-color: cornflowerblue;		display: flex; 	color: white ; 	font-size: calc(5% + 3vw + 3vh); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; flex-wrap: nowrap; flex-grow: 1; border-radius: 2px; border-color: gray;}
+
+#HMiddlepage{
+	background-color: rgba(228, 228, 228, 0.5); display: flex; justify-items: center; align-items: center; object-fit: fill; width: 100%;
+}
+#TitleSection{
+	background-color: rgba(184, 135, 11, 0.25);
+	height: auto;
+	font-size: calc(10% + 3vw + 3vh);
+}
+#TitleSection2{
+	background-color: rgba(184, 135, 11, 0.25);
+	height: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: calc(3% + 1.5vw + 1.5vh);
+	text-decoration: underline;
+	text-decoration-color: rgba(102, 92, 0, 0.263);
+}
+#SubContainer{
+	display: flex; flex-direction: column; height: calc(25px + 3.5vw + 3.5vh); width: 100%; flex-grow: 1; border-radius: 1px; border-color: rgba(65, 66, 105, 0.479); border-style: solid;
+	font-size: 30px; text-indent: 15px;
+}
+#SubsubContainer{
+	height: auto;
+	width: 33.333333%;
+	display: flex; 
+	flex-grow: 1;
+	flex-direction: column; 
+	flex-wrap: nowrap;
+	font-size: calc(3% + 1.5vw + 1.5vh) ;
+	text-indent: 15px;
+	border-radius: 1px; 
+	border-color: rgba(65, 66, 105, 0.479); 
+	border-style: solid;
+}
+#BottomContainer{
+	max-width: 100%;
+	background-color: seagreen;
+	display:flex;
+	flex-grow: 1;
+	flex-wrap: nowrap;
+	overflow-x: 0;
+}
+#BottomImage{
+	width: 25%;
+	height: 35vh;
+}
+#Maintextotherpages{
+	text-align: left;
+	line-height: 1.7;
+	font-size: calc(1.25vw + 1.25vh);
+	font-family: Verdana;
+}
+#layer1{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+#imageformat{
+	width: 25%
+}
+#mycarousel{
+	width: 60%;
+	float: right;
+}
+#chesspage{
+	background-image: url(../Chessbg.jpg);
+	height:100%
+}
+#bookhead{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(117, 101, 0);
+	font-size: calc(30px + 1.5vw + 1.5vh);
+	border-color: rgb(82, 69, 0);
+	border-radius: 2px;
+	text-align: center;
+	border-width: 3px;
+}
+#booksub{
+	font-size: calc(10px + 1vw + 1vh);
+	background-color: rgb(117, 101, 0);
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 100%;
+}
+#booksubhead{
+	background-color: black;
+	color: rgb(117, 101, 0);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bookimg{
+	width: 100%;
+	height: fit-content;
+	background-color: black;
+	max-height: 1000px;
+}
