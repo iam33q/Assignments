@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=yes">
+
+	<!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+        crossorigin="anonymous">
+
+	<title>Hi y'all</title>
+</head>
+
+<body>
+    <div id="upperpage">
+		<nav class="navbar navbar_text col-md-12" id="navbar_style">
+			<a id="navbar_style" class="text-dark col-md-1" href="Homepage.html">Home</a>
+			<a id="navbar_style" class="text-dark col-md-1" href="Cycling.html">Cycling</a>
+			<a id="navbar_style" class="text-dark col-md-1" href="Chess.html">Chess</a>
+			<a id="navbar_style" class="text-dark col-md-1" href="Reading.html" >Reading</a>
+			<a class="navbar-brand col-md-8 float-right" href="Iris.html" id="navbar_brand"><b>Iris.</b></a>
+		</nav>
+		<!-- Yes, I am using the navbar element in this terrible way, I am aware of it. 
+			THere was no other way I could find to get hyperlinks to work on the whole container, at least not reliably.
+			And I think we can agree that I have spent too much time on this assignment already.
+			Whatever Bootstrap is doing here is useful to me. If it ain't broke, don't fix it. -->
+	</div>
+	<div class="container-fluid col-md-12">
+		<div class="row justify-content-center">
+		    <div class="col-12 text-center" id="TitleSection">
+		    	<b>Welcome to my page!</b>
+		    </div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-12 align-bottom" id="TitleSection2">
+				What you will find here:
+			</div>
+		</div>
+	</div>
+
+		<div id="HMiddlepage">
+			<div class="flex-container" id="SubContainer">
+				<div class="flex-container flex-fill " id="HContent1">
+					Hobbies
+				</div>
+			</div>
+			<div class="flex-container" id="SubContainer">
+				<div class="flex-container flex-fill " id="HContent2">
+				    Endeavours
+				</div>
+			</div>
+			<div class="flex-container" id="SubContainer">
+				<div class="flex-container flex-fill " id="HContent3">
+					About me
+				</div>
+			</div>
+    	</div>
+		
+		<div class="col-12" id="HMiddlepage">
+			<div class="flex-container" id="SubsubContainer">
+				<div class="flex-container flex-fill">
+					<ul>
+						<li>Chess</li>
+						<li>Cycling</li>
+					</ul>	
+				</div>
+			</div>
+			<div class="flex-container" id="SubsubContainer">
+				<div class="flex-container flex-fill">
+					<ul>
+						<li>Learning</li>
+						<li>Development</li>
+					  </ul>
+					  
+					  
+				</div>
+			</div>
+			<div class="flex-container " id="SubsubContainer">
+				<div class="flex-container flex-fill">
+					<ul>
+						<li>Who I am</li>
+						<li>How I got here</li>
+					</ul>	
+				</div>
+			</div>
+    	</div>
+		<div id="BottomContainer">
+			<img class="flex-container img-fluid shrink-to-fit" id="BottomImage" src="chess.jpg" alt="CHESS!!">
+			<img class="flex-container img-fluid shrink-to-fit" id="BottomImage" src="Books.jpg" alt="BOOKS!!">
+			<img class="flex-container img-fluid shrink-to-fit" id="BottomImage" src="bicycle.jpg" alt="BIKES!!">
+			<img class="flex-container img-fluid shrink-to-fit" id="BottomImage" src="learning.jpg" alt="MOREBOOOKS!">
+		</div>
+</body>
+</html>
