@@ -161,15 +161,20 @@ function resultsTime(){
         r.push(results[i-1][1]);
     }
     for (let i=1; i<9;i++){
-        if (results[i-1][1] == r.sort(function(a,b){return b-a})[0]){
-            document.getElementById("resultshead").textContent +=  results[i][0]+"."
+        if (results[i-1][1] == r[0]){
+            document.getElementById("resultshead").textContent = "Your strongest team role is that of a "+ results[i-1][0]+". ";
+            if(r[0] == r[1]){
+                document.getElementById("resultshead").textContent = "Looks like you have a tie between two team roles.";
+            }
         }
-        if (results[i-1][1] == r.sort(function(a,b){return b-a})[1]){
-            document.getElementById("resultshead2").textContent +=  results[i][0]+". "
+        if (results[i-1][1] == r[1]){
+            document.getElementById("resultshead2").textContent = "You are also a good "+ results[i-1][0]+". ";
+            if(r[0] == r[1]){
+                document.getElementById("resultshead2").textContent = "Please review your scores below for more details.";
+            }
         }
-        if (results[i-1][1] == r.sort(function(a,b){return b-a})[7]){
-            document.getElementById("resultshead3").textContent += " " + results[i][0].toLowerCase()+","
+        if (results[i-1][1] == r[7]){
+            document.getElementById("resultshead3").textContent = "Your weakest team role is that of a " + results[i-1][0].toLowerCase() + ". You could improve in this area."
         }
     }
 }
-// 
